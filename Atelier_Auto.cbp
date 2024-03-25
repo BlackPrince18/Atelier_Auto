@@ -32,7 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="angajati.cpp" />
+		<Unit filename="angajati.h" />
+		<Unit filename="asistent.cpp" />
+		<Unit filename="asistent.h" />
+		<Unit filename="director.cpp" />
+		<Unit filename="director.h" />
+		<Unit filename="function.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="mecanic.cpp" />
+		<Unit filename="mecanic.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
