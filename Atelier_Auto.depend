@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1711370698 source:d:\code\atelier_auto\main.cpp
+	"angajati.h"
+	"director.h"
+	"mecanic.h"
+	"asistent.h"
+	"function.h"
+
+1711389706 d:\code\atelier_auto\angajati.h
+	<iostream>
+	<cstring>
+	<string>
+	<chrono>
+	<ctime>
+
+1711370778 source:d:\code\atelier_auto\angajati.cpp
+	"angajati.h"
+
+1711389991 source:d:\code\atelier_auto\director.cpp
+	"director.h"
+
+1711390104 d:\code\atelier_auto\director.h
+	"angajati.h"
+
+1711202340 d:\code\atelier_auto\mecanic.h
+	"angajati.h"
+
+1711372466 source:d:\code\atelier_auto\mecanic.cpp
+	"mecanic.h"
+
+1711372530 source:d:\code\atelier_auto\asistent.cpp
+	"asistent.h"
+
+1711202369 d:\code\atelier_auto\asistent.h
+	"angajati.h"
+
+1711371634 d:\code\atelier_auto\function.h
+	<iostream>
+	"angajati.h"
+	"director.h"
+	"mecanic.h"
+	"asistent.h"
+
