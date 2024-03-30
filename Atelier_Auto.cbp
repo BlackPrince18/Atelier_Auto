@@ -36,10 +36,18 @@
 		<Unit filename="angajati.h" />
 		<Unit filename="asistent.cpp" />
 		<Unit filename="asistent.h" />
+		<Unit filename="autobuz.cpp" />
+		<Unit filename="autobuz.h" />
+		<Unit filename="camion.cpp" />
+		<Unit filename="camion.h" />
 		<Unit filename="director.cpp" />
 		<Unit filename="director.h" />
 		<Unit filename="function.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="masini.cpp" />
+		<Unit filename="masini.h" />
+		<Unit filename="masini_standard.cpp" />
+		<Unit filename="masini_standard.h" />
 		<Unit filename="mecanic.cpp" />
 		<Unit filename="mecanic.h" />
 		<Extensions />

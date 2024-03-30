@@ -102,4 +102,19 @@ void Director::afisare()
     cout<<"Coeficient_Salariat: "<<Coeficient_Salariat<<endl<<endl;
 }
 
+float Director::getSalariu()
+{
+    auto now = chrono::system_clock::now();
+
+    time_t now_time = chrono::system_clock::to_time_t(now);
+
+    tm* local_time = localtime(&now_time);
+
+    int ani_vechime = local_time->tm_year + 1900 - this->Data_Angajarii.an;
+
+    if(ani_vechime == 0)
+        return this->Coeficient_Salariat * 1000;
+    else return ani_vechime * this->Coeficient_Salariat * 1000;
+}
+
 Director::~Director() { delete [] Nume; delete [] Prenume; }

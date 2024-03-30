@@ -1,12 +1,8 @@
 # depslib dependency file v1.0
-1711370698 source:d:\code\atelier_auto\main.cpp
-	"angajati.h"
-	"director.h"
-	"mecanic.h"
-	"asistent.h"
+1711811076 source:d:\code\atelier_auto\main.cpp
 	"function.h"
 
-1711389706 d:\code\atelier_auto\angajati.h
+1711804296 d:\code\atelier_auto\angajati.h
 	<iostream>
 	<cstring>
 	<string>
@@ -16,28 +12,55 @@
 1711370778 source:d:\code\atelier_auto\angajati.cpp
 	"angajati.h"
 
-1711389991 source:d:\code\atelier_auto\director.cpp
+1711804318 source:d:\code\atelier_auto\director.cpp
 	"director.h"
 
-1711390104 d:\code\atelier_auto\director.h
+1711804318 d:\code\atelier_auto\director.h
 	"angajati.h"
 
-1711202340 d:\code\atelier_auto\mecanic.h
+1711804318 d:\code\atelier_auto\mecanic.h
 	"angajati.h"
 
-1711372466 source:d:\code\atelier_auto\mecanic.cpp
+1711804317 source:d:\code\atelier_auto\mecanic.cpp
 	"mecanic.h"
 
-1711372530 source:d:\code\atelier_auto\asistent.cpp
+1711804291 source:d:\code\atelier_auto\asistent.cpp
 	"asistent.h"
 
-1711202369 d:\code\atelier_auto\asistent.h
+1711804318 d:\code\atelier_auto\asistent.h
 	"angajati.h"
 
-1711371634 d:\code\atelier_auto\function.h
-	<iostream>
+1711810980 d:\code\atelier_auto\function.h
 	"angajati.h"
 	"director.h"
 	"mecanic.h"
 	"asistent.h"
+	"masini.h"
+	"masini_standard.h"
+	"camion.h"
+	"autobuz.h"
+
+1711469134 source:d:\code\atelier_auto\masini.cpp
+	"masini.h"
+
+1711810489 d:\code\atelier_auto\masini.h
+	"angajati.h"
+
+1711810622 source:d:\code\atelier_auto\autobuz.cpp
+	"autobuz.h"
+
+1711810487 d:\code\atelier_auto\autobuz.h
+	"masini.h"
+
+1711810628 source:d:\code\atelier_auto\camion.cpp
+	"camion.h"
+
+1711810468 d:\code\atelier_auto\camion.h
+	"masini.h"
+
+1711810608 source:d:\code\atelier_auto\masini_standard.cpp
+	"masini_standard.h"
+
+1711810488 d:\code\atelier_auto\masini_standard.h
+	"masini.h"
 

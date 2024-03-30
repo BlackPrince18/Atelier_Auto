@@ -12,4 +12,5 @@ public:
     void afisare();
     void citire();
     void setID(int);
+    float getSalariu();
 };

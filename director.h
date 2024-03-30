@@ -12,5 +12,6 @@ public:
     void setID(int);
     ~Director();
     void afisare();
+    float getSalariu();
 };
 

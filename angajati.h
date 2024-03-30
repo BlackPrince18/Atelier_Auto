@@ -34,5 +34,6 @@ public:
     virtual void afisare()=0;
     virtual void citire()=0;
     virtual void setID(int)=0;
+    virtual float getSalariu()=0;
 };
 
